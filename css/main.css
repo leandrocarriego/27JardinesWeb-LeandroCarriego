@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+* {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+body {
+  background-color: #141618;
+  color: #fff;
+}
+
+.header .navbar {
+  background-color: #0c0e0f;
+}
+@media screen and (min-width: 576px) {
+  .header .navbar {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.encabezado {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .seccion1 .card {
+  border: none;
+}
+.main .seccion2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .seccion3 .card {
+  border: none;
+}
+
+.main .contacto__encabezado {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 576px) {
+  .main .contacto__encabezado {
+    height: 60vh;
+  }
+}/*# sourceMappingURL=main.css.map */

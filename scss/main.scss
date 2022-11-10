@@ -1,0 +1,13 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./themes/theme";
+
+@import "./layout/navbar";
+@import "./layout/encabezados";
+
+@import "./pages/index";
+@import "./pages/contact";
