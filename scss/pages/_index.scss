@@ -1,8 +1,19 @@
 .main {
 
     .seccion1 {
+        
         .card {
             border: none;
+            .card-img {
+                height: 100%;
+
+            }
+            a {
+                .boton-flecha {
+                    width: 50em;
+                    color: $color-typography
+                }
+            }
         }
     }
 
@@ -16,6 +27,11 @@
     .seccion3 {
         .card {
             border: none;
+            .container {
+                .button {
+                    background-color: #fe07074d;
+                }
+            }
         }
     }
 }
