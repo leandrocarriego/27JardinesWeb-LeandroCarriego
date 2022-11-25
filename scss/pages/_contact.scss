@@ -1,11 +1,11 @@
-.main {
-    .contacto__encabezado {
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        @include desktop {
-            height: 60vh;
-        }
+.contact {
+  .contacto-encabezado {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include desktop {
+      height: 60vh;
     }
+  }
 }

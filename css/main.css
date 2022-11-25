@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -28,7 +29,7 @@ body {
 .header .navbar {
   background-color: rgba(0, 0, 0, 0.3921568627);
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .header .navbar {
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
@@ -36,44 +37,105 @@ body {
   }
 }
 
-.encabezado {
+main .encabezado {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main .seccion1 .card {
-  border: none;
-}
-.main .seccion1 .card .card-img {
-  height: 100%;
-}
-.main .seccion1 .card a .boton-flecha {
-  width: 50em;
+footer .autor a {
+  text-decoration: none;
   color: #fff;
 }
-.main .seccion2 {
+footer .autor a:hover {
+  color: #d2cfcf;
+}
+
+.index .seccion1 {
+  background-image: url(../../img/inicio1-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .index .seccion1 {
+    height: 200vh;
+    background-image: url(../../img/inicio1-desktop.jpg);
+  }
+}
+.index .seccion2 {
+  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main .seccion3 .card {
-  border: none;
+.index .seccion2 a {
+  text-decoration: none;
+  color: #fff;
 }
-.main .seccion3 .card .container .button {
-  background-color: rgba(254, 7, 7, 0.3019607843);
+.index .seccion2 a:hover {
+  color: #d2cfcf;
+}
+.index .seccion3 {
+  background-image: url(../../img/inicio3-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.index .seccion3 article .boton a {
+  text-decoration: none;
+}
+.index .seccion3 article .boton a:hover {
+  color: #d2cfcf;
+}
+@media screen and (min-width: 768px) {
+  .index .seccion3 {
+    background-image: url(../../img/inicio3-desktop.jpg);
+  }
 }
 
-.main .contacto__encabezado {
+.about .seccion3 {
+  background-image: url(../../img/nosotros3-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about .seccion3 .boton a {
+  text-decoration: none;
+}
+.about .seccion3 .boton a:hover {
+  color: #d2cfcf;
+}
+@media screen and (min-width: 768px) {
+  .about .seccion3 {
+    background-image: url(../../img/nosotros3-desktop.jpg);
+  }
+}
+
+.contact .contacto-encabezado {
   height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 992px) {
-  .main .contacto__encabezado {
+@media screen and (min-width: 768px) {
+  .contact .contacto-encabezado {
     height: 60vh;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

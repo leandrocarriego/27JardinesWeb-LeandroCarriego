@@ -1,11 +1,11 @@
 footer {
-    autor {
-        a {
-            text-decoration: none;
-            color: #fff;
-            &:hover {
-                color: #d2cfcf;
-            }
-        }
+  .autor {
+    a {
+      text-decoration: none;
+      color: #fff;
+      &:hover {
+        color: #d2cfcf;
+      }
     }
+  }
 }

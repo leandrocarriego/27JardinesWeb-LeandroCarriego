@@ -18,9 +18,9 @@
   <title>Contacto - 27 Jardines</title>
 </head>
 
-<body class="body">
+<body>
   <header class="header sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-md navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">27 Jardines</a>
         <button class="navbar-toggler navbar__button" type="button" data-bs-toggle="collapse"
@@ -50,25 +50,25 @@
     </nav>
   </header>
 
-  <main class="main">
-    <section class="container contacto__encabezado">
-      <h1 class="display-2 fw-bold titulo-contacto text-center">
+  <main class="contact">
+    <section class="container contacto-encabezado">
+      <h1 class="display-2 fw-bold text-center">
         CONTACTO
       </h1>
     </section>
-    <section class="contacto__info">
-      <form class="formulario col-10 col-lg-6 mx-auto d-flex flex-column justify-center" action="">
-        <label class="formulario__label pb-2" for="name">Nombre y apellido</label>
-        <input class="formulario__input mb-2" type="text" id="name" name="name" placeholder="Nombre y apellido"
+    <section>
+      <form class="col-10 col-md-6 mx-auto d-flex flex-column justify-center" action="" method="POST">
+        <label class="pb-1" for="name">Nombre y apellido</label>
+        <input type="text" id="name" name="name" placeholder="Ej. Alan Brito Delgado"
           required />
-        <label class="formulario__label pb-2" for="email">Email</label>
-        <input class="formulario__input mb-2" type="email" id="email" name="email" placeholder="Email" required />
-        <label class="formulario__label pb-2" for="telefono"> Telefono </label>
-        <input class="formulario__input mb-2" type="tel" name="telefono" id="telefono" placeholder="Telefono" />
-        <p class="pb-2">Puedes dejarnos aqui tu consulta</p>
-        <textarea class="formulario__input mb-2" name="comentario" cols="30" rows="10"
+        <label class="pt-4 pb-1" for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Ej. alanbritodelgadok-po@gmail.com" required />
+        <label class="pt-4 pb-1" for="telefono"> Telefono </label>
+        <input type="tel" name="telefono" id="telefono" placeholder="Ej. +54 9 1122334455" />
+        <p class="pt-4 mb-1">Puedes dejarnos aqui tu consulta</p>
+        <textarea class="mb-2" name="comentario" cols="30" rows="10"
           placeholder="Detalle aqui su consulta..."></textarea>
-        <button class="formulario__btn mt-4 mb-5 w-50 btn mx-auto border text-white" type="submit">Enviar</button>
+        <button class="mt-4 mb-5 w-50 btn mx-auto border text-white" type="submit">Enviar</button>
       </form>
     </div>
     </section>
